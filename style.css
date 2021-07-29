@@ -36,3 +36,19 @@ a{
   padding: 10px 20px;
   margin: 20px auto;
 }
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .container{
+      width: 100%;
+    }
+
+    a{
+      font-size: 50px;
+      width: 50%;
+      margin: 40px auto;
+    }
+}

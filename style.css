@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+  overscroll-behavior: none;
+  overflow: hidden;
+  background: #242423;
+}
+
+
+.container{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox{
+  width: 80%;
+  height: 45%;
+  background: #FFF;
+  margin: 40px auto;
+  overflow: scroll;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
